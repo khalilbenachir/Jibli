@@ -1,9 +1,7 @@
-import 'package:flutter/material.dart';
-
 import 'package:fooddelivery/Food/foodItemList.dart';
 import 'package:fooddelivery/Food/foodItem.dart';
 
-FoodItemList _foodItemList = FoodItemList(foodItems: [
+FoodItemList foodItemList = FoodItemList(foodItems: [
   FoodItem(
       id: 1,
       title: "Burger 1",
